@@ -23,15 +23,16 @@
 </html>
 
 <style>
-@media only screen and (min-width:1475px) {
+/*@media only screen and (min-width:1475px) {
     #map {
-    height: 500px !important;
-    width: 800px !important;
-    transform: scale(0.7);
-    margin-left: -120px;
-    margin-top: -20px !important;
+        height: 500px !important;
+        width: 800px !important;
+        transform: scale(0.7);
+        margin-left: -120px;
+        margin-top:0px !important;
     }
-}
+}*/
+/*
 @media only screen and (min-width:1720px) {
     #map {
         height: 500px !important;
@@ -40,8 +41,8 @@
         margin-left: -40px !important;
         margin-top: -20px !important;
     }
-}
-
+}*/
+/*
 @media only screen and (min-width:1940px) {
     #map {
         height: 500px !important;
@@ -51,8 +52,8 @@
         margin-top: 20px !important;
     }
 }
-
-@media only screen and (min-width:2300px) {
+*/
+@media only screen and (min-width:1275px) {
     #map {
         height: 500px !important;
         width: 800px !important;
@@ -66,6 +67,21 @@
        margin-top:0px !important;
     }
 }
+@media only screen and (max-width:1000px) {
+    #map {
+        margin-left: 0px !important;
+        transform:translateX(-50px);
+    }
+    .info {
+        display:none;
+    }
+}    
+@media only screen and (max-width:875px) {
+    #map {
+        margin-left: 0px !important;
+        transform:translateX(-100px);
+    }
+}     
 @media only screen and (max-width:1940px) {
     .info {
         transform:scale(1.1);
