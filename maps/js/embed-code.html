@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://ycatwi.github.io/maps/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://ycatwi.github.io/maps/css/squarespace.css" />  
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/libraries/jquery.min.js'></script>
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/libraries/leaflet.js'></script>
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/libraries/leaflet.markercluster.js'></script>
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/libraries/geojson.js'></script> 
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/libraries/us-states.js'></script> 
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/libraries/wisconsin-counties.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+    
+  <body id="map-embed">
+    <div id="map" style="width: 800px; height: 500px;margin:auto;margin-top:200px;box-shadow: -2px 11px 49px -10px #dbdbdb;">
+        <img id="logo" src="https://ycatwi.github.io/maps/images/map-logo.png" style="z-index:999;position:absolute;bottom:30px;width:100px;left:00px;">
+    </div>
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/marker-initialize.js'></script>
+    <script type='text/javascript' src='https://ycatwi.github.io/maps/js/marker-spawn.js'></script>
+  </body>
+</html>
+
+<style>
+@media only screen and (min-width:1475px) {
+    #map {
+    height: 500px !important;
+    width: 800px !important;
+    transform: scale(0.7);
+    margin-left: -120px;
+    margin-top: -20px !important;
+    }
+}
+@media only screen and (min-width:1720px) {
+    #map {
+        height: 500px !important;
+        width: 800px !important;
+        transform: scale(0.9);
+        margin-left: -40px !important;
+        margin-top: -20px !important;
+    }
+}
+
+@media only screen and (min-width:1940px) {
+    #map {
+        height: 500px !important;
+        width: 800px !important;
+        transform: scale(1);
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+    }
+}
+
+@media only screen and (min-width:2300px) {
+    #map {
+        height: 500px !important;
+        width: 800px !important;
+        transform: scale(1.2);
+        margin-left: 80px !important;
+        margin-top: 120px !important;
+    }
+}
+@media only screen and (max-width:1275px) {
+    #map {
+       margin-top:0px !important;
+    }
+}
+@media only screen and (max-width:1940px) {
+    .info {
+        transform:scale(1.1);
+        margin-right: 20px !important;
+    }
+}
+
+</style>
