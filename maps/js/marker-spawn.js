@@ -157,10 +157,12 @@ var markerClusters = L.markerClusterGroup();
 
 for ( var i = 0; i < markers.length; ++i )
 {
-  var popup = '<b><span class="chapter-name">' + '<a target="blank" href=' + markers[i].Link + '>' + markers[i].Location + '</span></b>' + '</a>' +
+  var popup = '<b><span class="chapter-name">' + markers[i].Location + '</span></b>' +
               '<br/><b>Organizer: </b>' + markers[i].Organizer +
               '<br/><b>Email:</b> ' + '<a target="blank" href=mailto:' + markers[i].Email + '>' + markers[i].Email + '</a>' +
-              '<br/><b>Phone:</b> ' + markers[i].Phone;  
+              '<br/><b>Phone:</b> ' + markers[i].Phone +
+              '<br/><b>Type:</b> ' + markers[i].Type +
+              '<br/><b>Event Link:</b> ' + '<a target="blank" href=' + markers[i].Link + '>' + markers[i].Link + '</a>';  
 
   var m = L.marker( [markers[i].lat, markers[i].lng], {icon: myIcon} )
                   .bindPopup( popup );
