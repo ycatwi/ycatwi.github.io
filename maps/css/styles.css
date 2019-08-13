@@ -181,12 +181,14 @@
 
 /* visual tweaks */
 
+
 .leaflet-container {
 	background: #ddd;
 	outline: 0;
 	}
 .leaflet-container a {
-	color: #0078A8;
+	color: #63AB36;
+
 	}
 .leaflet-container a.leaflet-active {
 	outline: 2px solid orange;
@@ -554,18 +556,16 @@
 	}
 
 .command {
-    font-family: 'Montserrat' !important;
+    font-family: 'Ubuntu' !important;
 }
 .state-header, .chapter-name {
     font-size:13pt;
-    color: #63AB36;
+    color: #63AB36 !important;
     font-weight:800;
-    padding-bottom:110px;
-    font-family: "Montserrat" !important;
+    font-family: "Ubuntu" !important;
 }
 .local-chapters, .chair, .contact {
-   font-family: "Montserrat" !important;
-
+   font-family: "Ubuntu" !important;
     font-style: normal;
     font-size: 11px;
     letter-spacing: .10em;

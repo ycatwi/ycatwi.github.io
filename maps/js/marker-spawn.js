@@ -60,7 +60,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML =  (props ?
-        '<b><span class="state-header">' + " " + props.county_nam + '</span></b><br /><div class="sub-header"><span class="local-chapters">' + " " + props.dnr_region + '<br / >' + " " + "general@ycatwi.org"
+        '<b><span class="state-header">' + " " + props.county_nam + "<b> County</b>" + '</span></b><br /><div class="sub-header"><span class="local-chapters">' + " " + props.dnr_region + '<br / >' + " "
         : 'Hover over a county</div>');
 };
 
@@ -157,10 +157,10 @@ var markerClusters = L.markerClusterGroup();
 
 for ( var i = 0; i < markers.length; ++i )
 {
-  var popup = '<b><span class="chapter-name">' + markers[i].Location + '</span></b>' +
+  var popup = '<b><span class="chapter-name">' + '<a target="blank" href=' + markers[i].Link + '>' + markers[i].Location + '</span></b>' + '</a>' +
               '<br/><b>Date:</b> ' + markers[i].Date +
               '<br/><b>Organizer: </b>' + markers[i].Organizer +
-              '<br/><b>Email:</b> ' + '<a href=mailto:' + markers[i].Email + '>' + markers[i].Email + '</a>' +
+              '<br/><b>Email:</b> ' + '<a target="blank" href=mailto:' + markers[i].Email + '>' + markers[i].Email + '</a>' +
               '<br/><b>Phone:</b> ' + markers[i].Phone;  
 
   var m = L.marker( [markers[i].lat, markers[i].lng], {icon: myIcon} )
