@@ -65,5 +65,49 @@ var markers =
     "Link": "https://bit.ly/2Me9RTy",
     "lat": "46.5924428",
     "lng": "-90.8837982"
-  }
+  },
+  {
+    "Date": "September 1st, 2019",
+    "Location": "Eau Claire",
+    "Organizer": "Sarah Chojnacki",
+    "Email": "sarahchoj143@gmail.com",
+    "Phone": "(715) 460-4559",
+    "Type": "Flagship",
+    "Link": "https://bit.ly/2knwubS",
+    "lat": "44.812561",
+    "lng": "-91.499420"
+  },  
+  {
+    "Date": "September 6th, 2019",
+    "Location": "Baraboo",
+    "Organizer": "Maya Shay",
+    "Email": "mishay@barabooschools.net",
+    "Phone": "(608) 963-3848",
+    "Type": "Flagship",
+    "Link": "https://bit.ly/2kmRZtk",
+    "lat": "43.474730",
+    "lng": "-89.744190"
+  },     
+  {
+    "Date": "September 12th, 2019",
+    "Location": "Stevens Point",
+    "Organizer": "Jessycah",
+    "Email": "350point@gmail.com",
+    "Phone": "(262) 442-7006",
+    "Type": "Flagship",
+    "Link": "https://bit.ly/2lPA8eY",
+    "lat": "44.523472",
+    "lng": "-89.569710"
+  }, 
+  {
+    "Date": "September 13th, 2019",
+    "Location": "Hortonville",
+    "Organizer": "Abby Vela",
+    "Email": "Abigailvela03@gmail.com",
+    "Phone": "(920) 470-2132",
+    "Type": "Flagship",
+    "Link": "https://bit.ly/2kBl4Bs",
+    "lat": "44.339901",
+    "lng": "-88.635529"
+  }    
 ]
