@@ -109,5 +109,60 @@ var markers =
     "Link": "https://bit.ly/2kBl4Bs",
     "lat": "44.339901",
     "lng": "-88.635529"
-  }    
+  },    	 			
+  {
+    "Date": "September 15th, 2019",
+    "Location": "Lake Mills",
+    "Organizer": "Laney (Helena) Janczy",
+    "Email": "laneyj1895@gmail.com",
+    "Phone": "(920) 650-5757",
+    "Type": "Regular",
+    "Link": "https://www.facebook.com/events/477860116402031/",
+    "lat": "43.081320",
+    "lng": "-88.911710"
+  },  
+  {
+    "Date": "September 17th, 2019",
+    "Location": "Madison",
+    "Organizer": "Jennifer Cadena",
+    "Email": "Jennc151@gmail.com",
+    "Phone": "(608) 490-1076",
+    "Type": "Regular",
+    "Link": "N/A",
+    "lat": "43.0730517",
+    "lng": "-89.4012302"
+  },      	 			
+  {
+    "Date": "September 18th, 2019",
+    "Location": "Spooner",
+    "Organizer": "Dan Herscher",
+    "Email": "danherscher@gmail.com",
+    "Phone": "N/A",
+    "Type": "Regular",
+    "Link": "https://www.fridaysforfuture.org/events/map#4935",
+    "lat": "45.845064",
+    "lng": "-91.951464"				
+  },
+  {
+    "Date": "September 18th, 2019",
+    "Location": "Wauwatosa",
+    "Organizer": "Emma Stevens",
+    "Email": "stevenem2022@wauwatosa.k12.wi.us",
+    "Phone": "(262) 247-6232",
+    "Type": "Regular",
+    "Link": "N/A",
+    "lat": "43.058910",
+    "lng": "-88.007462"
+  },  
+  {
+    "Date": "September 18th, 2019",
+    "Location": "Sheboygan City Hall",
+    "Organizer": "Haley Stuckmann",
+    "Email": "21stuckmann943@sasd.net",
+    "Phone": "(920) 980-2012",
+    "Type": "Regular",
+    "Link": "https://warrinerwalkout.weebly.com/ ",
+    "lat": "43.741170",
+    "lng": "-87.850250"
+  } 
 ]
